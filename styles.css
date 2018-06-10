@@ -1,0 +1,385 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #111821;
+}
+
+h2.redBox {
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #f63040;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h2.whiteBox {
+    font-size: 30px;
+    font-weight: 700;
+    color: #111821;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase; 
+}
+
+h3.whiteBoxRed {
+    font-size: 30px;
+    font-weight: 700;
+    color: #f63040;
+    margin: 0;
+    text-transform: uppercase; 
+}
+
+.spacer {
+    display: block;
+    clear: both;
+}
+
+.spacer20 {
+    height: 20px;
+}
+
+.spacer50 {
+    height: 50px;
+}
+
+.mmt50 { margin-top: 50px;}
+
+
+
+/********** TOP BAR **********/
+
+#top-bar {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+#top-bar .fa {
+    color: #f6303e;
+    font-size: 16px;
+    margin-left: 5px;
+    padding: 10px 0;
+}
+
+#top-bar .top-menu a{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+#top-bar .fa.top-cart {
+    color: #FFFFFF;
+    background: #f6303e;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+/********** LOGO and PHONE **********/
+
+#logo-phone {
+    padding: 40px 0;
+}
+
+#logo-phone .logo img{
+    width: 200px;
+    height: auto;
+}
+#logo-phone .open-hours p:first-child {
+    font-weight: 700;
+    text-align: center;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+#logo-phone .open-hours p:last-child {
+    color: #f6303e;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+
+/********** BANNER **********/
+
+#banner .banner-left img{
+    height: 100%;
+    width: auto;
+}
+
+#banner .banner-right,
+#banner .banner-left {
+    overflow: hidden;
+}
+
+#banner .banner-right img {
+    height: 50%;
+    width: auto;
+}
+
+/********** MENU **********/
+
+#menu .container {
+    background: #d7d7d7;
+    border-bottom: 4px solid #f63040;
+}
+
+#menu a {
+    color: #111821;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#menu .sub-menu,
+#menu .sub-menu-a {
+    display: none;
+}
+
+#menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#menu .main-menu li {
+    display: inline-block;
+    position: relative;
+}
+
+#menu .main-menu li:hover{
+    background: #f63040;
+}
+
+#menu .main-menu li:hover a {
+    color: #FFFFFF;
+}
+
+#menu .main-menu li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    z-index: 999999;
+    background: #f63040;
+    padding-bottom: 20px;
+}
+
+#menu .main-menu li a {
+    display: block;
+    padding: 20px 30px;
+}
+
+#menu .main-menu .sub-menu li {
+    display: block;
+    min-width: 240px;
+    position: relative;
+}
+
+#menu .main-menu .sub-menu a {
+    padding: 7px 20px;
+}
+
+#menu .main-menu .sub-menu li:hover {
+    background: #d7d7d7;
+}
+
+#menu .main-menu .sub-menu li:hover a {
+    color: #111821;
+}
+
+#menu .main-menu .sub-menu li:hover .sub-menu-a {
+    display: block;
+    position: absolute;
+    left: 240px;
+    background: #d7d7d7;
+    top: 0;
+    min-width: 300px;
+}
+
+#menu .main-menu .sub-menu .sub-menu-a li:hover a{
+    font-weight: 700;
+}
+
+/********** Top Product **********/
+
+.top-product-img {
+    max-height: 250px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.top-product-img img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.top-product-img .top-seller,
+.top-product-img .new {
+    position: absolute;
+    color: #FFFFFF;
+    padding: 1px 5px;
+    top: 0;
+    left: 0;
+    z-index: 999998;
+}
+
+.top-product-img .top-seller {
+    background: #131416;
+}
+
+.top-product-img .new {
+    background: #f63040;
+}
+
+.top-product-price .price {
+    font-size: 20px;
+    font-weight: 600;
+    color: #f63040;
+    margin-bottom: 5px;
+}
+
+.top-product-price .before-price {
+    text-decoration: line-through;
+}
+
+.top-product-title {
+    margin-bottom: 10px;
+    min-height: 50px;
+}
+
+.top-product-btn {
+    text-align: left;
+    position: relative;
+}
+
+.top-product-btn span {
+    display: block;
+    margin-left: 30px;
+}
+
+.top-product-btn a {
+    display: block;
+    background: #131416;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    height: 34px;
+    line-height: 36px;
+}
+
+.top-product-btn i {
+    color: #FFFFFF;
+    background: #f6303e;
+    padding: 10px;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+}
+
+/********** Latest News and Taste **********/
+
+#latestNews-box-wrap img {
+    float: left;
+}
+
+#latestNews-box-wrap ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#latestNews-box-wrap li {
+    margin-bottom: 10px;
+}
+
+#latestNews-box-wrap .title {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/********** Testimonials **********/
+
+#testimonials {
+    background: url('images/testi-bg.jpg') left top no-repeat #131416;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 50px 150px;
+}
+
+#testimonials .testimonials-text {
+    font-style: italic;
+}
+
+/********** Footer **********/
+
+#footer {
+    border-top: 4px solid #f63040;
+}
+
+#footer .contact-info {
+    background: url('images/contact-info-bg.jpg') left top no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+#footer .contact-info ul {
+    padding: 0;
+    margin: 50px 0 0 30px;
+    list-style: none;
+}
+
+#footer .contact-info li {
+    margin-bottom: 20px;
+}
+
+#footer .contact-info .icons a{
+    color: #f63040;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+#copyright {
+    color: #4d4e51;
+    text-align: center;
+    padding: 15px;
+    background: #131416;
+}
+
+#copyright a {
+    color: #4d4e51;
+}
+
+.main-products .top-product-wrap {
+    margin-bottom: 30px;
+}
+
+.main-products .top-product-img img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+#sidebar {
+    padding-left: 40px;
+}
+
+#sidebar .form-group {
+    margin-bottom: 0px;
+}
+
+#sidebar .widget-box {
+    margin-bottom: 20px;
+}
+
+#sidebar .widget-box h4 {
+    background: #d7d7d7;
+    padding: 10px;
+    border-bottom: 2px solid #f63040;
+}
